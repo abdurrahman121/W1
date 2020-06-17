@@ -1,0 +1,165 @@
+
+#title {
+  background-color: #ff4c68;
+  padding-bottom: 8%;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  color: white;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700 !important;
+}
+
+h3 {
+  font-family: "Montserrat" , sans-serif;
+  font-weight: 700 !important;
+  font-size: 1.25rem !important;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 15% !important;
+}
+
+.rotateMobile{
+-ms-transform:rotate(25deg); /* IE 9 */
+-moz-transform:rotate(25deg); /* Firefox */
+-webkit-transform:rotate(25deg); /* Safari and Chrome */
+-o-transform:rotate(25deg); /* Opera */
+transform:rotate(25deg);
+position: absolute;
+width: 60%;
+right: 30% !important;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem !important;
+}
+
+.navbar {
+  padding: 0 0 4.5rem !important;
+}
+
+.nav-item {
+  padding: 0 18px !important;
+}
+
+.nav-link {
+  font-family: "Montserrat" , sans-serif;
+  font-weight: lighter !important;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  z-index: 1;
+  position: relative;
+}
+
+.fbox {
+  text-align: center;
+  padding: 5%
+}
+
+.fas {
+  color: #ef8172;
+  padding: 1rem;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: white;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonialImage {
+  width: 15%;
+  border-radius: 100%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 7%;
+}
+
+.pressimg {
+  width: 15%;
+  margin: 20px 20px 0;
+}
+
+#pricing {
+  padding: 8%;
+  text-align: center;
+}
+
+.card-header {
+  color: white;
+  background-color: #ef8172 !important;
+}
+
+@media (max-width: 1000px) {
+
+.rotateMobile {
+  position: static;
+  transform: rotate(0);
+}
+
+#title {
+  text-align: center;
+}
+
+}
+
+
+
+#cta {
+  background-color: #ff4c68;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 5% 5%;
+  text-align: center;
+}
+
+.fot {
+  color: #fff;
+}
+
+#footer {
+  text-align: center;
+  background-color: #fff;
+  padding-top: 2%
+}
+
+.fi {
+  color: black;
+  padding: 2px;
+}
+
+.fi:hover {
+  color: grey;
+}
